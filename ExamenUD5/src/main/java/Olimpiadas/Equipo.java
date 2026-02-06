@@ -2,6 +2,7 @@ package Olimpiadas;
 
 import java.util.ArrayList;
 
+
 public class Equipo {
 
     private String pais;
@@ -11,7 +12,9 @@ public class Equipo {
     public Equipo(String pais){
         this.pais=pais;
     }
-
+    public void inscribirsDeportista (Deportista deportista){
+        listaDeportista.add(deportista);
+    }
 
     public ArrayList<Deportista> getListaDeportista() {
         return listaDeportista;
@@ -28,8 +31,6 @@ public class Equipo {
     public void setPais(String pais) {
         this.pais = pais;
     }
-
-
 
 
 

@@ -21,10 +21,16 @@ public class Deportista {
 
     }
 
+
+    public void verMedallero(){
+
+    }
+
     public ArrayList<String> verModalidades(){
         return listaModalidades;
 
     }
+
 
     public void inscribirse (String modalidad){
         listaModalidades.add(modalidad);
